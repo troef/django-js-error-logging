@@ -42,7 +42,7 @@ Installation
 
        urlpatterns = patterns(
            # ...
-           url(r'^jserr/$', include('jserrorlogging.urls', namespace='jserrorlogging')),
+           url(r'^jserr/', include('jserrorlogging.urls', namespace='jserrorlogging')),
            # ...
        )
 
